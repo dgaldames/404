@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.error{
+    margin-left: 90px;
+    margin-top: 40px;
+    font-weight: 800;
+    font-family: 'Inconsolata', monospace;
+}
+
+.scarecrow img{
+    max-width: 40%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.scarecrow{
+    display: flex
+}
+
+.scarecrow h1{
+    margin-top: 130px;
+    margin-left: 100px;
+    font-size: 3.3em;
+    font-family: 'Space Mono', monospace;
+    color: #333333;
+}
+
+.scarecrow h2{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-weight: 100;
+    font-family: 'Space Mono', monospace;
+    color: #333333;
+}
+
+.scarecrow button{
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-family: 'Space Mono', monospace;
+    border: none;
+}
+
+.responsive{
+    display: none;
+}
+
+@media (max-width: 500px){
+
+    .error{
+        margin:0;
+        margin-left: 40px;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .scarecrow img{
+        margin: 0;
+        margin-left: 50px;
+        margin-top: 70px;
+        max-width: 75%;
+    }
+
+    .scarecrow{
+        flex-direction: column; 
+    }
+
+    .content h1{
+        margin: 0;
+        margin-left: 50px;
+        font-size: 3em;
+        margin-top: 100px;
+    }
+
+    .escritorio{
+        display: none;
+    }
+
+    .responsive{
+        display: block;
+    }
+
+    .content h2{
+        margin: 0;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+
+    .content button{
+        margin: 0;
+        margin-left: 50px;
+        margin-top: 80px;
+        font-size: 1.2em;
+        width: 250px;
+        height: 80px;
+    }
+
+    .content{
+        padding-bottom: 300px;
+    }
+}
